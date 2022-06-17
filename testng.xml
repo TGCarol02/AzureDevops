@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Examples">
+
+    <test name="Run Jenkins">
+        <packages>
+            <package name="specs.login.*"></package>
+        </packages>
+    </test>
+
+
+    <!--&lt;!&ndash;<parameter name="FirstNumber" value="5"></parameter>&ndash;&gt;
+    <parameter name="SecondNumber" value="7"></parameter>
+    <test name="Parameters Example">
+        <classes>
+            <class name="previoussessions.testngparameters.TestngParametersExample"></class>
+        </classes>
+    </test>-->
+
+    <!--<test name="Class Execution">
+        <classes>
+            <class name="previoussessions.testngdemo.FirstTestngTest"></class>
+        </classes>
+    </test>
+
+    <test name="Package Execution">
+        <packages>
+            <package name="previoussessions.testngdemo"></package>
+        </packages>
+    </test>-->
+    
+</suite>
